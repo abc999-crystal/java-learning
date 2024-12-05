@@ -100,6 +100,24 @@
             <artifactId>weixin-java-cp</artifactId>
             <version>${weixin-cp.version}</version>
         </dependency>
+        <!-- windows转pdf -->
+        <dependency>
+            <groupId>com.documents4j</groupId>
+            <artifactId>documents4j-local</artifactId>
+            <version>1.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.documents4j</groupId>
+            <artifactId>documents4j-transformer-msoffice-word</artifactId>
+            <version>1.0.3</version>
+        </dependency>
+        <!-- linux转pdf -->
+        <!-- 参考kkfile-view -->
+        <dependency>
+            <groupId>org.jodconverter</groupId>
+            <artifactId>jodconverter-local</artifactId>
+            <version>4.4.6</version>
+        </dependency>
     </dependencies>
 
 </project>
